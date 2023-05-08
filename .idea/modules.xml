@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/only-dev.iml" filepath="$PROJECT_DIR$/.idea/only-dev.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/ecommerce-react-js.iml" filepath="$PROJECT_DIR$/.idea/ecommerce-react-js.iml" />
     </modules>
   </component>
 </project>
