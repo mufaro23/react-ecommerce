@@ -1,6 +1,7 @@
 import React, {useState} from "react"
 import {Link} from "react-router-dom";
 import heroBackground from "../img/hero-bcg.jpeg"
+import heroBackground2 from "../img/hero-bcg-2.jpeg"
 
 function Hero() {
     const [myUser, setMyUser] = useState()
@@ -32,8 +33,9 @@ function Hero() {
                     shop now
                 </Link>
             </article>
-            <article className="hidden lg:block lg:relative">
-                <img src={heroBackground} alt="" className="w-full h-96 relative rounded"/>
+            <article className="hidden lg:block lg:img-container">
+                <img src={heroBackground} alt="nice table" className="main-img" />
+                <img src={heroBackground2} alt="person working" className="accent-img" />
             </article>
         </section>
     )

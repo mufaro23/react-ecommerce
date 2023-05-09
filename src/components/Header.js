@@ -17,8 +17,8 @@ function Header() {
             <div className="w-4/5 m-auto flex justify-between">
                 <div className="flex items-center justify-between w-full lg:w-auto">
                     <Link to="/" className="flex items-center">
-                        <img src={Logo} alt="Logo" className="w-14 -ml-3.5"/>
-                        <p className="hidden text-2xl font-bold ml-4 md:block">OnlyDev</p>
+                        <img src={Logo} alt="Logo" className="w-14 -ml-3.5 hidden"/>
+                        <p className="hidden text-3xl font-bold mt-2 ml-4 md:block">eCommerce</p>
                     </Link>
                     <button type="button" className="bg-transparent border-transparent cursor-pointer lg:hidden"
                             onClick={openSidebar}>
